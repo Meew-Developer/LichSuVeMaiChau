@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #c1d3df;
+
+}
+img{
+   right: 1px;
+}
+h1{
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    background: linear-gradient(90deg ,#ff0000,#ffff00,#ff00f3,#0033ff,#ff00c4,#ff0000);
+    background-size: 3030%;
+    font-size: 50px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    font-weight: 600;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+    overflow: hidden;
+}
+@keyframes animate {
+    0%{
+        background-position: 0%;
+    
+     
+
+}
+100%{
+    background-position: 400%;
+}
+}
+p{
+    padding: 20px;
+    margin-top: 0%;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+h2{
+    padding: 10px;
+    margin-top: 13%;
+    font-family: sans-serif;
+    font-size: 25px;
+}
